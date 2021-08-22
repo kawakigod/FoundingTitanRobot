@@ -73,12 +73,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
  Hi {}, I'm {}!
-I am an Attack on Titan anime themed group management bot,
+I am an jujutsu kaisen themed group management bot,
 Built by weebs for weebs, I specialize in managing anime eccentric communities.
 """
 
 HELP_STRINGS = """
-Hey there, I'm Eren Jaeger!
+Hey there, I'm Gojou satoru!
 To make me functional, make sure that i have enough rights in your group.
 
 Helpful commands:
@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Eren Jaeger to your group!",
+                                text="➕ Add Gojou satoru to your group!",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
